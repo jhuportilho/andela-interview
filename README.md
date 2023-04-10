@@ -20,12 +20,16 @@ Inside each folder of its respective function you must run the commands:
 Start by deploying users into `/dev/iam_users`
 
 `$ terraform init`
+
 `$ terraform validate`
+
 `$ terraform plan -var-file="../dev.tfvars"`
 
 **Then repeat for folders with resources:**
 `iam_groups`
+
 `iam_policies`
+
 `iam_roles`
 
 
